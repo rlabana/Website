@@ -3,6 +3,7 @@ body{
     color: #351431;
     padding: 0;
     margin: 0;
+    font-family:Arial;
 }
 #maintanence{
     padding-top: 5px;
@@ -12,34 +13,36 @@ body{
     color: black;
     margin: 0;
 }
-#header{
-    /* need to increase the font*/
-}
-#about, #education, #work, #projects, #contact, #footer{
+#about, #education, #work, #projects, #contact, #footer, #menu, #header{
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 10px;
     padding-bottom: 10px;
 }
+#menu{
+    float: right;
+    margin-bottom:20px;
+}
 #about{
-    background-color: #351431;
-    color: #bcbdc0;
+    background-color: #bcbdc0;
+    color: #351431;
 }
 #education{
     background-color: #60495a;
     color: #bcbdc0;
 }
-#projects{
-    background-color: #351431;
-    color: #bcbdc0;
-}
 #work{
+    background-color: #bcbdc0;
+    color: #351431;
+}
+#projects{
     background-color: #60495a;
     color: #bcbdc0;
 }
+
 #contact{
-    background-color: #351431;
-    color: #bcbdc0;
+    background-color: #bcbdc0;
+    color: #351431;
 }
 #footer{
     background-color: #000000;
@@ -50,6 +53,13 @@ body{
 a{
     text-decoration: none;
     color: #351431;
+    padding: 2px;
+    font-family: "Arial Black";
+}
+
+a:hover{
+    color: #60495a;
+    font-family: "Arial";
 }
 [class*="col-"] {
     float: left;
