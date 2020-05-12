@@ -1,0 +1,104 @@
+body{
+    background-color: #bcbdc0;
+    color: #351431;
+    padding: 0;
+    margin: 0;
+}
+#maintanence{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    background-color: goldenrod;
+    color: black;
+}
+/*
+#container{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+ */
+#header{
+    /* need to increase the font*/
+}
+#about, #education, #work, #projects, #contact, #footer{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#about{
+    background-color: #351431;
+    color: #bcbdc0;
+}
+#education{
+    background-color: #60495a;
+    color: #bcbdc0;
+}
+#projects{
+    background-color: #351431;
+    color: #bcbdc0;
+}
+#work{
+    background-color: #60495a;
+    color: #bcbdc0;
+}
+#contact{
+    background-color: #351431;
+    color: #bcbdc0;
+}
+#footer{
+    background-color: #000000;
+    color: #bcbdc0;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: #351431;
+}
+[class*="col-"] {
+    float: left;
+}
+.col-1 {
+    width: 8.33%;
+}
+.col-2 {
+    width: 16.66%;
+}
+.col-3 {
+    width: 25%;
+}
+.col-4 {
+    width: 33.33%;
+}
+.col-5 {
+    width: 41.66%;
+}
+.col-6 {
+    width: 50%;
+}
+.col-7 {
+    width: 58.33%;
+}
+.col-8 {
+    width: 66.66%;
+}
+.col-9 {
+    width: 75%;
+}
+.col-10 {
+    width: 83.33%;
+}
+.col-11 {
+    width: 91.66%;
+}
+.col-12 {
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
