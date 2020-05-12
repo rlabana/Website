@@ -10,13 +10,8 @@ body{
     text-align: center;
     background-color: goldenrod;
     color: black;
+    margin: 0;
 }
-/*
-#container{
-    padding-left: 5%;
-    padding-right: 5%;
-}
- */
 #header{
     /* need to increase the font*/
 }
