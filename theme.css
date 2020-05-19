@@ -5,61 +5,32 @@ body{
     margin: 0;
     font-family:Arial;
 }
-#maintanence{
-    padding-top: 5px;
-    padding-bottom: 5px;
+nav{
+    position: relative;
+    background-color: #bcbdc0;
+    overflow: hidden;
+    opacity: 0.5;
+    color: #351431;
+}
+header{
+    background-image: url("images/wallpaperflare.com_wallpaper (2) croped.jpg");
+}
+header article {
+    padding: 5%;
+    font-family: Consolas;
+    color: #bcbdc0;
+}
+p.title{
     text-align: center;
-    background-color: goldenrod;
-    color: black;
+    font-size: 3em;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+p.subtitle{
+    font-size: 1.5em;
     margin: 0;
-}
-#about, #education, #work, #projects, #contact, #footer, #menu, #header{
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-#menu{
-    float: right;
-    margin-bottom:20px;
-}
-#about{
-    background-color: #bcbdc0;
-    color: #351431;
-}
-#education{
-    background-color: #60495a;
-    color: #bcbdc0;
-}
-#work{
-    background-color: #bcbdc0;
-    color: #351431;
-}
-#projects{
-    background-color: #60495a;
-    color: #bcbdc0;
-}
-
-#contact{
-    background-color: #bcbdc0;
-    color: #351431;
-}
-#footer{
-    background-color: #000000;
-    color: #bcbdc0;
     text-align: center;
-}
-
-a{
-    text-decoration: none;
-    color: #351431;
-    padding: 2px;
-    font-family: "Arial Black";
-}
-
-a:hover{
-    color: #60495a;
-    font-family: "Arial";
 }
 [class*="col-"] {
     float: left;
