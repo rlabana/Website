@@ -9,10 +9,10 @@ nav{
     background-color: white;
     overflow: hidden;
     opacity: 0.60;
-    color: mediumvioletred;
+    color: darkslategrey;
 }
 header{
-    background-image: url("images/wallpaperflare.com_wallpaper (3).jpg");
+    background-image: url("images/wallpaperflare.com_wallpaper (5).jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -41,20 +41,19 @@ p.subtitle{
     padding:2%;
     padding-right: 5%;
     padding-left: 5%;
-    color: mediumvioletred;
+    color: darkslategrey;
     text-align: justify;
 }
-h5.w3-third{
+h5.col-4{
     text-align: right;
-
 }
 .dark{
-    background-color: lavender;
+    background-color: lightslategrey;
     margin: 0;
     padding:2%;
     padding-right: 5%;
     padding-left: 5%;
-    color: rebeccapurple;
+    color: black;
     text-align: justify;
 }
 footer p{
@@ -130,7 +129,7 @@ footer p{
         margin: 0;
         padding:5%;
     }
-    h5.w3-third{
-        text-align: left;
-    }
+    h5.col-4{
+         text-align: left;
+     }
 }
