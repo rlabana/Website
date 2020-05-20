@@ -13,7 +13,7 @@ nav{
     color: #351431;
 }
 header{
-    background-image: url("images/wallpaperflare.com_wallpaper (1).jpg");
+    background-image: url("images/wallpaperflare.com_wallpaper (2) croped.jpg");
 }
 header article {
     padding: 5%;
@@ -33,14 +33,14 @@ p.subtitle{
     text-align: center;
 }
 .light{
-    background-color: whitesmoke;
+    background-color: lavenderblush;
     margin: 0;
     padding:2%;
     padding-right: 5%;
     padding-left: 5%;
 }
 .dark{
-    background-color: whitesmoke;
+    background-color: lavender;
     margin: 0;
     padding:2%;
     padding-right: 5%;
