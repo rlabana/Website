@@ -1,6 +1,6 @@
 body{
     background-color: white;
-    color: #351431;
+    color: midnightblue;
     padding: 0;
     margin: 0;
     font-family:Arial;
@@ -10,10 +10,14 @@ nav{
     background-color: white;
     overflow: hidden;
     opacity: 0.5;
-    color: #351431;
+    color: midnightblue;
 }
 header{
-    background-image: url("images/wallpaperflare.com_wallpaper (2) croped.jpg");
+    background-image: url("images/wallpaperflare.com_wallpaper (8).jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 header article {
     padding: 5%;
@@ -33,14 +37,15 @@ p.subtitle{
     text-align: center;
 }
 .light{
-    background-color: lavenderblush;
+    background-color: lightcyan;
     margin: 0;
     padding:2%;
     padding-right: 5%;
     padding-left: 5%;
+    color: darkblue;
 }
 .dark{
-    background-color: lavender;
+    background-color: white;
     margin: 0;
     padding:2%;
     padding-right: 5%;
