@@ -1,6 +1,5 @@
 body{
     background-color: white;
-    color: midnightblue;
     padding: 0;
     margin: 0;
     font-family:Arial;
@@ -9,11 +8,11 @@ nav{
     position: relative;
     background-color: white;
     overflow: hidden;
-    opacity: 0.5;
-    color: midnightblue;
+    opacity: 0.60;
+    color: mediumvioletred;
 }
 header{
-    background-image: url("images/wallpaperflare.com_wallpaper (8).jpg");
+    background-image: url("images/wallpaperflare.com_wallpaper (3).jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -37,19 +36,26 @@ p.subtitle{
     text-align: center;
 }
 .light{
-    background-color: lightcyan;
-    margin: 0;
-    padding:2%;
-    padding-right: 5%;
-    padding-left: 5%;
-    color: darkblue;
-}
-.dark{
     background-color: white;
     margin: 0;
     padding:2%;
     padding-right: 5%;
     padding-left: 5%;
+    color: mediumvioletred;
+    text-align: justify;
+}
+h5.w3-third{
+    text-align: right;
+
+}
+.dark{
+    background-color: lavender;
+    margin: 0;
+    padding:2%;
+    padding-right: 5%;
+    padding-left: 5%;
+    color: rebeccapurple;
+    text-align: justify;
 }
 footer p{
     background-color: black;
@@ -117,13 +123,14 @@ footer p{
         text-align: center;
     }
     .light{
-        background-color: lavenderblush;
         margin: 0;
         padding:5%
     }
     .dark{
-        background-color: lavender;
         margin: 0;
         padding:5%;
+    }
+    h5.w3-third{
+        text-align: left;
     }
 }
